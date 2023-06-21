@@ -15,14 +15,14 @@
   padding: 35px;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 8px;
-  max-width: 360px;
-	overflow: hidden;
+  min-width: 320px;
 }
 .profile__ul li h4 {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 24px;
   color: var(--color-grey-7);
+	overflow: hidden;
 }
 
 .profile__ul li p {
@@ -42,4 +42,10 @@
     align-items: flex-start;
     justify-content: space-between;
   }
+	.profile__ul li {
+		max-width: 320px;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
 }

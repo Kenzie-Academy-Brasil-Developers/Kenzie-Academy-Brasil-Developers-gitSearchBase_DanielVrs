@@ -23,4 +23,5 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background-color: var(--color-grey-2);
+	gap: 40px;
 }

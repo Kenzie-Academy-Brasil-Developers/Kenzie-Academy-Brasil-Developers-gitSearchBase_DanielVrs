@@ -40,15 +40,15 @@ const renderRepo = async () => {
 		if(element.description === null){
 			
 			p.innerText = "Repositório sem descrição"
-			a
+			
 		}else{
 			p.innerText = element.description
 		}
-
+		
 		a.innerText = "Repositório"
 		a.href = element.html_url
 		a.target = "_blank"
-
+		
 		li.append(h4,p,a)
 		profile.appendChild(li)
 	});
