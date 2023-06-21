@@ -1,22 +1,26 @@
 .index,
 .error {
-  display: flex;
-  flex-direction: column;
-  min-width: 100dvw;
-  min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	min-width: 100dvw;
+	min-height: 100dvh;
+}
+
+.index__input:focus{
+	color: var(--color-grey-7);
 }
 
 .error {
-  background-color: var(--color-grey-2);
+	background-color: var(--color-grey-2);
 }
 
 .profile__main {
-  width: 80%;
+	width: 80%;
 }
 
 @media (min-width: 768px) {
-  .index,
-  .error {
-    flex-direction: row;
-  }
+	.index,
+	.error {
+		flex-direction: row;
+	}
 }

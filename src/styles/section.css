@@ -2,63 +2,63 @@
 .index__section-second,
 .error__section-first,
 .error__section-second {
-  display: flex;
-  justify-content: center;
-  padding: 0 2rem;
-  height: 50dvh;
+	display: flex;
+	justify-content: center;
+	padding: 0 2rem;
+	height: 50dvh;
 }
 
 .index__section-first {
-  background-color: var(--color-brand-1);
+	background-color: var(--color-brand-1);
 }
 
 .index__div,
 .error__div-first {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 35px;
-  max-width: 500px;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 35px;
+	max-width: 500px;
+	width: 100%;
 }
 
 .index__section-first h3 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--color-grey-7);
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--color-grey-7);
 }
 
 .index__section-first p,
 .error__section-first p {
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: var(--color-grey-7);
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: var(--color-grey-7);
 }
 
 .index__section-second {
-  background-color: var(--color-grey-2);
+	background-color: var(--color-grey-2);
 }
 
 .index__section-second form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 300px;
-  width: 100%;
-  gap: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 300px;
+	width: 100%;
+	gap: 10px;
 }
 
 .index__section-second form h4 {
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: var(--color-grey-7);
-  margin-bottom: 20px;
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: var(--color-grey-7);
+	margin-bottom: 20px;
 }
 
 .index__section-second form p {
-  font-size: 0.9rem;
-  font-family: 500;
-  color: var(--color-grey-7);
+	font-size: 0.9rem;
+	font-family: 500;
+	color: var(--color-grey-7);
 }
 
 .index__section-second form input {
